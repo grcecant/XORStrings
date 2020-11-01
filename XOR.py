@@ -43,7 +43,7 @@ def numOut():
     for i in inp:
         inp_ord = ord(i)
         key_ord = ord(key[counter])
-        return_string += hex(inp_ord^key_ord)
+        return_string += hex(inp_ord^key_ord)[2:]
         return_string += ' '
         counter = (counter + 1) % len(key)
     return return_string
