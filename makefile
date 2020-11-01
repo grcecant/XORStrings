@@ -1,2 +1,2 @@
 run:
-	@python XOR.py $(ARGS)
+	@python3 XOR.py $(ARGS)
